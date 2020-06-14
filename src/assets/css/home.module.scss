@@ -1,0 +1,35 @@
+
+
+footer{
+    width: 750px;
+    height: 90px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    background-color: #f7f7f7;
+    justify-content: space-around;
+    align-items: center;
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+          div{
+              text-decoration: none;
+          }
+     }
+    .putong{
+        color: #101010;
+          text-decoration: none;;
+    }
+    .icon{
+        margin: 0 auto;
+        width: 45px;
+        height: 45px;;
+    }
+    .active{
+        color: green;
+    }
+}
