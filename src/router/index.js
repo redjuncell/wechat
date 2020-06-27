@@ -4,11 +4,16 @@ import  Found  from  '../view/found'
 import  Home  from  "../view/home"
 import  Login  from  "../view/Login.jsx"
 import  index  from  "../view/index"
+import  Chat from "../view/chat"
 // import  Hscss from "../assets/css/home.module.scss"
 const router=[
     {
         path:"/login",
         component:Login
+    },
+    {
+        path:"/chat",
+        component:Chat
     },
     {
         path:"/",
